@@ -5,6 +5,20 @@
 }
 
 
+/* shared Style---------------------> */
+
+section{
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.theme-text{
+    background: linear-gradient(to bottom, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
 
 
 
@@ -12,7 +26,7 @@
 
 .navbar {
     max-width: 1152px;
-    margin: 30px auto 0;
+    margin: 30px auto 20px;
     display: flex;
     justify-content: space-between;
 
@@ -47,11 +61,35 @@
 }
 
 .follow-btn{
-    padding: 18px 122px 18px 24px;
+    padding: 14px 97px 14px 19px;
     border: none;
-    border-radius: 8px;
+    border-radius: 7px;
     background-color: rgba(11, 2, 35, 0.1);
 }
 
 /* Header Banner Style */
 
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner h4{
+    font-size: 2.37rem;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 4.75rem;
+    font-weight: 800;
+}
+
+.banner-image-container{
+    max-width: 576px;
+    max-height: 544px;
+}
+
+.banner-image-container img {
+    width: 100%;
+}

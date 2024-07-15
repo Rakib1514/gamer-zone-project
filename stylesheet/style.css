@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Header Navbar Style */
+
+.navbar {
+    max-width: 1152px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-icon-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.brand-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.brand-title::first-letter {
+    color: #FF42A5;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-link{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.follow-btn{
+    padding: 18px 122px 18px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.1);
+}
+
+/* Header Banner Style */
+

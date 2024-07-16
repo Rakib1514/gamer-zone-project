@@ -13,7 +13,7 @@
 
 /* shared Style---------------------> */
 
-section {
+section , .banner {
     max-width: 1152px;
     margin: 0 auto;
 }
@@ -87,6 +87,14 @@ section {
     justify-content: space-between;
 }
 
+.banner-bg{
+    max-width: 1536px;
+    /* border: 1px solid red; */
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: -110px;
+}
+
 .banner h4 {
     font-size: 2.37rem;
     font-weight: 600;
@@ -126,3 +134,38 @@ section {
     width: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .banner-bg{
+        background-image: none;
+    }
+    .banner-info{
+        margin-top: 7.75rem;
+    }
+
+    .header-icon-title{
+        margin-bottom: 3rem;
+    }
+
+    .nav-links{
+        margin-bottom: 3.87rem;
+    }
+}

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -7,19 +13,25 @@
 
 /* shared Style---------------------> */
 
-section{
+section {
     max-width: 1152px;
     margin: 0 auto;
 }
 
-.theme-text{
+.theme-text {
     background: linear-gradient(to bottom, #F948B2, #8758F1);
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
-
 }
 
-
+.btn-primary{
+    padding: 1.1rem 2rem;
+    border-radius: 3rem;
+    font-size: 1rem;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
 
 
 /* Header Navbar Style */
@@ -48,19 +60,19 @@ section{
     color: #FF42A5;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 25px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 0.9rem;
     font-weight: 500;
 }
 
-.follow-btn{
+.follow-btn {
     padding: 14px 97px 14px 19px;
     border: none;
     border-radius: 7px;
@@ -75,17 +87,37 @@ section{
     justify-content: space-between;
 }
 
-.banner h4{
+.banner h4 {
     font-size: 2.37rem;
     font-weight: 600;
 }
 
-.banner-title{
+.banner-title {
     font-size: 4.75rem;
     font-weight: 800;
+    margin-bottom: 1.5rem;
 }
 
-.banner-image-container{
+.support-list{
+    font-size: 1rem;
+    font-weight: 500;
+    list-style: none;
+
+}
+
+.support-list li{
+    margin-bottom: 1rem;
+}
+
+.signin-btn{
+    background-color: #FF42A5;
+}
+
+.rogue-btn{
+    background-color: #4EC5F7;
+}
+
+.banner-image-container {
     max-width: 576px;
     max-height: 544px;
 }
@@ -93,3 +125,4 @@ section{
 .banner-image-container img {
     width: 100%;
 }
+
